@@ -1,0 +1,577 @@
+2014-02-24 14:53:35 Error: [MissingPluginException] Plugin BoostCake could not be found.
+Exception Attributes: array (
+  'plugin' => 'BoostCake',
+)
+Request URL: /
+Stack Trace:
+#0 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(365): CakePlugin::path('BoostCake')
+#1 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(226): App::pluginPath('BoostCake')
+#2 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(547): App::path('View/Helper', 'BoostCake')
+#3 [internal function]: App::load('BoostCakeHtmlHe...')
+#4 [internal function]: spl_autoload_call('BoostCakeHtmlHe...')
+#5 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/HelperCollection.php(130): class_exists('BoostCakeHtmlHe...')
+#6 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(867): HelperCollection->load('Html', Array)
+#7 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(341): View->loadHelpers()
+#8 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(1240): View->__construct(Object(PagesController))
+#9 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(938): Controller->_getViewObject()
+#10 /var/www/elearning/Controller/PagesController.php(60): Controller->render('home')
+#11 [internal function]: PagesController->display('home')
+#12 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#13 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#14 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#15 /var/www/elearning/webroot/index.php(100): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2014-02-24 14:54:53 Error: [MissingControllerException] Controller class IndexController could not be found.
+Exception Attributes: array (
+  'class' => 'IndexController',
+  'plugin' => NULL,
+)
+Request URL: /index
+Stack Trace:
+#0 /var/www/elearning/webroot/index.php(100): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-24 14:55:01 Error: [MissingControllerException] Controller class IndexController could not be found.
+Exception Attributes: array (
+  'class' => 'IndexController',
+  'plugin' => NULL,
+)
+Request URL: /index
+Stack Trace:
+#0 /var/www/elearning/webroot/index.php(100): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-24 15:00:29 Error: [MissingControllerException] Controller class IndexController could not be found.
+Exception Attributes: array (
+  'class' => 'IndexController',
+  'plugin' => NULL,
+)
+Request URL: /index
+Stack Trace:
+#0 /var/www/elearning/webroot/index.php(100): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-24 15:07:31 Error: [MissingViewException] View file "/var/www/elearning/View/Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/elearning/View/Users/login.ctp',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/elearning/webroot/index.php(100): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-02-24 15:07:36 Error: [MissingViewException] View file "/var/www/elearning/View/Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/elearning/View/Users/login.ctp',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/elearning/webroot/index.php(100): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-02-24 15:07:39 Error: [MissingViewException] View file "/var/www/elearning/View/Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/elearning/View/Users/login.ctp',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/elearning/webroot/index.php(100): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-02-24 16:57:41 Error: [MissingViewException] View file "/var/www/elearning/View/Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/elearning/View/Users/login.ctp',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/elearning/webroot/index.php(100): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-02-24 16:57:41 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /var/www/elearning/webroot/index.php(100): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-24 16:57:46 Error: [MissingViewException] View file "/var/www/elearning/View/Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/elearning/View/Users/login.ctp',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/elearning/webroot/index.php(100): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-02-24 16:57:46 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /var/www/elearning/webroot/index.php(100): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-24 16:57:48 Error: [MissingViewException] View file "/var/www/elearning/View/Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/elearning/View/Users/login.ctp',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/elearning/webroot/index.php(100): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-02-24 16:57:48 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /var/www/elearning/webroot/index.php(100): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-24 16:58:40 Error: [MissingControllerException] Controller class PostsController could not be found.
+Exception Attributes: array (
+  'class' => 'PostsController',
+  'plugin' => NULL,
+)
+Request URL: /posts/add
+Stack Trace:
+#0 /var/www/elearning/webroot/index.php(100): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-24 16:58:40 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /var/www/elearning/webroot/index.php(100): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-24 16:58:42 Error: [MissingViewException] View file "/var/www/elearning/View/Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/elearning/View/Users/login.ctp',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/elearning/webroot/index.php(100): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-02-24 16:58:42 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /var/www/elearning/webroot/index.php(100): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-24 16:58:54 Error: [MissingViewException] View file "/var/www/elearning/View/Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/elearning/View/Users/login.ctp',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/elearning/webroot/index.php(100): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-02-24 16:58:54 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /var/www/elearning/webroot/index.php(100): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-24 17:11:47 Error: [MissingTableException] Table users for model User was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'users',
+  'class' => 'User',
+  'ds' => 'default',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Model/Model.php(3498): Model->setSource('users')
+#1 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Model/Model.php(1355): Model->getDataSource()
+#2 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/Helper/FormHelper.php(207): Model->schema()
+#3 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/Helper/FormHelper.php(459): FormHelper->_introspectModel('User', 'fields')
+#4 /var/www/elearning/View/Users/login.ctp(13): FormHelper->create(Array)
+#5 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(929): include('/var/www/elearn...')
+#6 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(891): View->_evaluate('/var/www/elearn...', Array)
+#7 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(460): View->_render('/var/www/elearn...')
+#8 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#9 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#10 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#11 /var/www/elearning/webroot/index.php(100): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-02-24 17:11:48 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /var/www/elearning/webroot/index.php(100): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-24 17:11:58 Error: [MissingControllerException] Controller class PostsController could not be found.
+Exception Attributes: array (
+  'class' => 'PostsController',
+  'plugin' => NULL,
+)
+Request URL: /posts/
+Stack Trace:
+#0 /var/www/elearning/webroot/index.php(100): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-24 17:11:58 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /var/www/elearning/webroot/index.php(100): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-24 17:11:59 Error: [MissingControllerException] Controller class PostsController could not be found.
+Exception Attributes: array (
+  'class' => 'PostsController',
+  'plugin' => NULL,
+)
+Request URL: /posts/add
+Stack Trace:
+#0 /var/www/elearning/webroot/index.php(100): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-24 17:12:00 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /var/www/elearning/webroot/index.php(100): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-24 17:12:01 Error: [MissingTableException] Table users for model User was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'users',
+  'class' => 'User',
+  'ds' => 'default',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Model/Model.php(3498): Model->setSource('users')
+#1 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Model/Model.php(1355): Model->getDataSource()
+#2 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/Helper/FormHelper.php(207): Model->schema()
+#3 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/Helper/FormHelper.php(459): FormHelper->_introspectModel('User', 'fields')
+#4 /var/www/elearning/View/Users/login.ctp(13): FormHelper->create(Array)
+#5 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(929): include('/var/www/elearn...')
+#6 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(891): View->_evaluate('/var/www/elearn...', Array)
+#7 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(460): View->_render('/var/www/elearn...')
+#8 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#9 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#10 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#11 /var/www/elearning/webroot/index.php(100): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-02-24 17:12:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /var/www/elearning/webroot/index.php(100): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-24 17:12:56 Error: [MissingTableException] Table users for model User was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'users',
+  'class' => 'User',
+  'ds' => 'default',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Model/Model.php(3498): Model->setSource('users')
+#1 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Model/Model.php(1355): Model->getDataSource()
+#2 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/Helper/FormHelper.php(207): Model->schema()
+#3 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/Helper/FormHelper.php(459): FormHelper->_introspectModel('User', 'fields')
+#4 /var/www/elearning/View/Users/login.ctp(13): FormHelper->create(Array)
+#5 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(929): include('/var/www/elearn...')
+#6 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(891): View->_evaluate('/var/www/elearn...', Array)
+#7 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(460): View->_render('/var/www/elearn...')
+#8 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#9 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#10 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#11 /var/www/elearning/webroot/index.php(100): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-02-24 17:12:56 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /var/www/elearning/webroot/index.php(100): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-24 17:15:36 Error: [MissingTableException] Table users for model User was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'users',
+  'class' => 'User',
+  'ds' => 'default',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Model/Model.php(3498): Model->setSource('users')
+#1 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Model/Model.php(1355): Model->getDataSource()
+#2 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/Helper/FormHelper.php(207): Model->schema()
+#3 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/Helper/FormHelper.php(459): FormHelper->_introspectModel('User', 'fields')
+#4 /var/www/elearning/View/Users/login.ctp(13): FormHelper->create(Array)
+#5 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(929): include('/var/www/elearn...')
+#6 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(891): View->_evaluate('/var/www/elearn...', Array)
+#7 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(460): View->_render('/var/www/elearn...')
+#8 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#9 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#10 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#11 /var/www/elearning/webroot/index.php(100): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-02-24 17:15:37 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /var/www/elearning/webroot/index.php(100): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-24 17:15:38 Error: [MissingControllerException] Controller class PostsController could not be found.
+Exception Attributes: array (
+  'class' => 'PostsController',
+  'plugin' => NULL,
+)
+Request URL: /posts/add
+Stack Trace:
+#0 /var/www/elearning/webroot/index.php(100): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-24 17:15:38 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /var/www/elearning/webroot/index.php(100): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-24 17:15:39 Error: [MissingControllerException] Controller class PostsController could not be found.
+Exception Attributes: array (
+  'class' => 'PostsController',
+  'plugin' => NULL,
+)
+Request URL: /posts/
+Stack Trace:
+#0 /var/www/elearning/webroot/index.php(100): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-24 17:15:39 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /var/www/elearning/webroot/index.php(100): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-24 17:15:41 Error: [MissingTableException] Table users for model User was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'users',
+  'class' => 'User',
+  'ds' => 'default',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Model/Model.php(3498): Model->setSource('users')
+#1 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Model/Model.php(1355): Model->getDataSource()
+#2 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/Helper/FormHelper.php(207): Model->schema()
+#3 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/Helper/FormHelper.php(459): FormHelper->_introspectModel('User', 'fields')
+#4 /var/www/elearning/View/Users/login.ctp(13): FormHelper->create(Array)
+#5 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(929): include('/var/www/elearn...')
+#6 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(891): View->_evaluate('/var/www/elearn...', Array)
+#7 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(460): View->_render('/var/www/elearn...')
+#8 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#9 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#10 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#11 /var/www/elearning/webroot/index.php(100): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-02-24 17:15:41 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /var/www/elearning/webroot/index.php(100): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-24 17:16:46 Error: [MissingTableException] Table users for model User was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'users',
+  'class' => 'User',
+  'ds' => 'default',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Model/Model.php(3498): Model->setSource('users')
+#1 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Model/Model.php(1355): Model->getDataSource()
+#2 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/Helper/FormHelper.php(207): Model->schema()
+#3 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/Helper/FormHelper.php(459): FormHelper->_introspectModel('User', 'fields')
+#4 /var/www/elearning/View/Users/login.ctp(13): FormHelper->create(Array)
+#5 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(929): include('/var/www/elearn...')
+#6 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(891): View->_evaluate('/var/www/elearn...', Array)
+#7 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(460): View->_render('/var/www/elearn...')
+#8 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#9 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#10 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#11 /var/www/elearning/webroot/index.php(100): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-02-24 17:16:46 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /var/www/elearning/webroot/index.php(100): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-24 17:17:18 Error: Fatal Error (1): Call to a member function allow() on a non-object in [/var/www/elearning/Controller/UsersController.php, line 27]
+2014-02-24 17:17:18 Error: [FatalErrorException] Call to a member function allow() on a non-object
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/elearn...', 27)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/elearn...', 27, Array)
+#2 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/elearn...', 27, Array)
+#3 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-02-24 17:17:18 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /var/www/elearning/webroot/index.php(100): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-24 17:17:21 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /var/www/elearning/webroot/index.php(100): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-24 17:17:44 Error: [MissingTableException] Table users for model User was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'users',
+  'class' => 'User',
+  'ds' => 'default',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Model/Model.php(3498): Model->setSource('users')
+#1 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Model/Model.php(1355): Model->getDataSource()
+#2 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/Helper/FormHelper.php(207): Model->schema()
+#3 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/Helper/FormHelper.php(459): FormHelper->_introspectModel('User', 'fields')
+#4 /var/www/elearning/View/Users/login.ctp(13): FormHelper->create(Array)
+#5 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(929): include('/var/www/elearn...')
+#6 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(891): View->_evaluate('/var/www/elearn...', Array)
+#7 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(460): View->_render('/var/www/elearn...')
+#8 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#9 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#10 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#11 /var/www/elearning/webroot/index.php(100): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-02-24 17:17:45 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /var/www/elearning/webroot/index.php(100): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-24 17:17:50 Error: [MissingTableException] Table users for model User was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'users',
+  'class' => 'User',
+  'ds' => 'default',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Model/Model.php(3498): Model->setSource('users')
+#1 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Model/Model.php(1355): Model->getDataSource()
+#2 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/Helper/FormHelper.php(207): Model->schema()
+#3 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/Helper/FormHelper.php(459): FormHelper->_introspectModel('User', 'fields')
+#4 /var/www/elearning/View/Users/login.ctp(13): FormHelper->create(Array)
+#5 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(929): include('/var/www/elearn...')
+#6 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(891): View->_evaluate('/var/www/elearn...', Array)
+#7 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(460): View->_render('/var/www/elearn...')
+#8 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#9 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#10 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#11 /var/www/elearning/webroot/index.php(100): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-02-24 17:17:50 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /var/www/elearning/webroot/index.php(100): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-24 17:18:49 Error: Fatal Error (1): Call to a member function allow() on a non-object in [/var/www/elearning/Controller/UsersController.php, line 27]
+2014-02-24 17:18:49 Error: [FatalErrorException] Call to a member function allow() on a non-object
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/elearn...', 27)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/elearn...', 27, Array)
+#2 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/elearn...', 27, Array)
+#3 /var/www/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-02-24 17:18:49 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /var/www/elearning/webroot/index.php(100): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-24 17:18:54 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /var/www/elearning/webroot/index.php(100): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
